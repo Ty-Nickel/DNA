@@ -1,0 +1,12 @@
+
+
+
+<form action="{% url 'search' %}" method="post">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <input type="Submit" value="Submit">
+
+
+
+
+</form>
